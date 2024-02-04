@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    height: 90vh;
+    width: 100%;
+    background-color: #8EA78A;
+    /* border: 1px solid black; */
+}
+nav{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 1vh 5vh;
+    margin: 0vh 5vh;
+}
+.nav-left p{
+font-size: 3.5vh;
+font-weight: bold;
+letter-spacing:-2.3px;
+}
+.nav-center,.nav-rgt{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 1vh 2vh;
+    gap: 4vh;
+    font-size: 2.6vh;
+    font-weight:500;
+}
+.nav-center>p:hover{
+    background-color:#3c493a ;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 0.5vh 1.5vh;
+    font-weight: 500;
+    font-size: 2.7vh;
+    color: white;
+}
+.notification-bar{
+    height: 10%;
+    width: 10%;
+    display: none;
+    /* border: 1px solid black; */
+    background-color: rgb(53, 93, 53);
+    position: relative;
+    margin-left: -5vh;
+    margin-top: -1vh;
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.bda-dabba{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* gap: 5px; */
+}
+.close-btn{
+    text-align: end;
+    position: absolute;
+    top: -0.8vh;
+    right: -1vh;
+    margin: 0.5vh;
+    cursor: pointer;
+}
+.sec-box{
+    height: 80vh;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 33vh;
+}
+#plant-img{
+    height: 95%;
+    width: 30%;
+    /* border: 1px solid black; */
+    margin-right: 5vh;
+    /* margin: 10vh 0vh 0vh 3vh; */
+    background: url(./laura-morin-plant01-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 25vh; */
+    /* margin-left: -30vh; */
+}
+.description{
+    /* border: 1px solid black; */
+    height: 30%;
+    width: 50%;
+    padding: 1vh;
+    margin-top: -25vh;
+}
+.description p:nth-child(1){
+    font-size: 5vh;
+    font-weight: bold;
+}
+.description p:nth-child(2){
+    font-size: 2.3vh;
+    font-style: italic;
+}
+.description p:nth-child(3){
+    padding-top: 3vh;
+    padding-left: 5vh;
+}
+.buynow{
+    height: 100%;
+    width: 103%;
+    /* border: 1px solid black; */
+    background-color:#DEE7DF ;
+    margin-top: 5vh;
+    margin-left: -1vh;
+    padding: 3vh 5vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vh;
+    /* justify-content: space-between; */
+    /* font-size: 1vh; */
+}
+.buynow>section{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buynow>section>div{
+    /* border: 1px solid black; */
+    height: 75%;
+    background-color: whitesmoke;
+    padding: 0vh 1vh;
+}
+.buynow h3{
+    /* border: 1px solid black; */
+    /* margin-top: 3vh; */
+}
+.buynow>section>div >span{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    color: crimson;
+    font-weight: bolder;
+    padding-left: 3vh;
+}
+.buynow>section>div >a{
+    /* border: 1px solid black; */
+    padding: 0.3vh 3vh;
+    font-weight: bolder;
+}
+.small-buynow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-buynow> button{
+    padding: 0.8vh 2vh;
+    border-radius: 10px;
+    background-color: rgb(244, 46, 11);
+    color: white;
+     border: none;
+}
+.small-buynow>h4{
+    height: 85%;
+    width: 60%;
+    background-color:whitesmoke ;
+    padding: 0.5vh;
+
+}
+.container2{
+    /* border: 1px solid black; */
+    height: 90vh;
+    width: 100%;
+    background-color: #D1C4AC;
+    display: flex;
+    justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.container2>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   font-size: 30vh;
+   color: #E1DAD1;
+   z-index: 1;
+}
+
+.selectplanter{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    z-index: 2;
+    margin-top: 10vh;
+}
+.selectplanter h1{
+    height: 10%;
+    width: 17%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.pots{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+   
+}
+.p1{
+    margin: auto;
+    height: 80%;
+    width: 40%;
+    /* border: 1px solid pink; */
+    z-index: 2;
+}
+.p1 section img{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    object-fit: cover;
+}
+.p1 p{
+    /* color: red; */
+    text-align: center;
+}
+
+.pot2 section img{
+    margin-top: 8.3vh;
+}
+.pot4 section img{
+    height: 90%;
+}
+.pot3 section img{
+    margin-top: 3vh;
+}
